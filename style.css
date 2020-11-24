@@ -1,0 +1,71 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#box {
+    background-color: #e0eef8;
+    text-align: center;
+}
+.cta {
+
+    font-size: 20px;
+    text-align: center;
+    color: #377aa1;
+    background-color: #f6e4e6;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+
+.cta:active {
+    background-color: #f6e4e6;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#dydisAntrastes {
+    position: relative;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: calc(5px + 3vw);
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-shadow: 0 0 0.15em #1da9cc;
+    user-select: none;
+    white-space: nowrap;
+    filter: blur(0.007em);
+    animation: shake 2.5s linear forwards;
+    margin-top: 1em;
+}
+
+#regionSelect {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.imag{
+    width: 300px;
+    height: 100px;
+    object-fit: scale-down;
+}
+
+.regionBox{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.flagBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    width: 300px;
+    transition: 0.6s;
+}
+.flagBox:hover{
+    background-color: #a1cbee;
+    color:white;
+}
